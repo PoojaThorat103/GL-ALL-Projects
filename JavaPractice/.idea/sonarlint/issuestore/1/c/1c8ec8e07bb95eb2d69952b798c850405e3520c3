@@ -1,0 +1,13 @@
+
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÛØĞÚ8§¤ÄûŸ1
+p
+java:S1602"SRemove useless curly braces around statement and then remove useless return keyword(ôëİ«8°¤ÄûŸ1
+b
+java:S1612"@Replace this lambda with method reference 'System.out::println'.(ÑóÕ—üÿÿÿÿ8³¤ÄûŸ1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÑóÕ—üÿÿÿÿ8³¤ÄûŸ1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(òÔÇÍ8³¤ÄûŸ1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(šÆœÊşÿÿÿÿ8µ¤ÄûŸ1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(òÔÇÍ8¶¤ÄûŸ1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(»¹èõÿÿÿÿÿ8·¤ÄûŸ1
+U
+java:S1128"8Remove this unused import 'java.util.function.Function'.(»³Í8åÂÌûŸ1

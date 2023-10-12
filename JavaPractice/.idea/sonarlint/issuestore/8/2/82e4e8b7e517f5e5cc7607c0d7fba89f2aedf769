@@ -1,0 +1,21 @@
+
+L
+java:S3740"/Provide the parametrized type for this generic.(³–Ú‹8È¬ÉïŒ1
+L
+java:S3740"/Provide the parametrized type for this generic.(â–î™8È¬ÉïŒ1
+•
+java:S1130
+"xRemove the declaration of thrown exception 'java.lang.NoSuchMethodException', as it cannot be thrown from method's body.(»¥­ê8ë­ÉïŒ1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(™¬Ç´ûÿÿÿÿ8ï­ÉïŒ1
+U	java:S106"9Replace this use of System.out or System.err by a logger.( ¥ŒŸ8ï­ÉïŒ1
+X	java:S125"<This block of commented-out lines of code should be removed.(ÊÈøæ8ï­ÉïŒ1
+N
+java:S3011",This accessibility update should be removed.(íË©¶úÿÿÿÿ8ï­ÉïŒ1
+]	java:S125#"<This block of commented-out lines of code should be removed.(¹Ïøúÿÿÿÿ8ğ­ÉïŒ1
+N
+java:S3011%",This accessibility update should be removed.(Í”úÆùÿÿÿÿ8ğ­ÉïŒ1
+N
+java:S3011&",This accessibility bypass should be removed.(¬ÌæÖøÿÿÿÿ8ğ­ÉïŒ1
+N
+java:S3011,",This accessibility update should be removed.(Í”úÆùÿÿÿÿ8ò­ÉïŒ1
+U	java:S106-"9Replace this use of System.out or System.err by a logger.(ÙÚÉ®8ò­ÉïŒ1
