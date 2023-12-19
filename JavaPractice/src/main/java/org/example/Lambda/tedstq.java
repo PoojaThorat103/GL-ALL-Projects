@@ -1,5 +1,6 @@
 package org.example.Lambda;
 
+import java.net.StandardSocketOptions;
 import java.util.function.Function;
 import java.util.function.Predicate;
 
@@ -8,7 +9,7 @@ public class tedstq {
     public static void main(String[] args){
 
 
-       /* Drawable d = new Drawable(){
+       /*Drawable d = new Drawable(){
             public int draw(int a){
                 return a+5;
             };
@@ -17,21 +18,32 @@ public class tedstq {
         int b = d.draw(10);
         System.out.println(b);*/
 
-       /* Drawable d1 = c -> {
+           //   Using lambda expression
+
+       Drawable d1 = (c) -> {
             int sum = c+10;
             return sum;
         };
-
 
         int e = d1.draw(15);
         System.out.println(e);
 
 
+
+        Printable pp = () ->{
+            System.out.println("-----------------------Print  ");
+        };
+         pp.show();
+
+    // we call both ways above and below
+
         Printable p = () -> System.out.println("hii");
-        p.show();*/
+        p.show();
+
+
 
         Predicate<Integer> p1 = (g) -> g%2 == 0;
-        System.out.println(p1.test(4));
+        System.out.println(p1.test(7));
 
         Function<Integer, Integer> f = (t) -> t*10;
 

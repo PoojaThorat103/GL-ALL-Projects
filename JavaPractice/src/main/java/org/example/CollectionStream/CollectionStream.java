@@ -28,5 +28,8 @@ public class CollectionStream {
         System.out.println(all);
 
 
+
+
+
     }
 }

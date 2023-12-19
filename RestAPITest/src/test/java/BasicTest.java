@@ -16,21 +16,21 @@ public class BasicTest {
             // Then - validate the response
 
         //Add palce API : to add place
-        System.out.println("============== Add palce API ===================");
-        RestAssured.baseURI= "http://rahulshettyacademy.com";
-      String response =
-              given().log().all().queryParam("key","qaclick123").header("Content-Type","application/json").body(payload.AddPlaceApi()) // Passing API body
-              .when().post("maps/api/place/add/json")
-              .then().assertThat().statusCode(200)// validation on status code in response
-                .body("scope", equalTo("APP")) // validation on response body : here we are validating one filed from response body
-                .header("Server", "Apache/2.4.52 (Ubuntu)")// validation on response header body
-                .extract().response().asString(); // extract response body and store it in string or store json in string format
-      System.out.println("This is response body " + response);
+            System.out.println("============== Add palce API ===================");
+            RestAssured.baseURI= "http://rahulshettyacademy.com";
+          String response =
+                  given().log().all().queryParam("key","qaclick123").header("Content-Type","application/json").body(payload.AddPlaceApi()) // Passing API body
+                  .when().post("maps/api/place/add/json")
+                  .then().assertThat().statusCode(200)// validation on status code in response
+                    .body("scope", equalTo("APP")) // validation on response body : here we are validating one filed from response body
+                    .header("Server", "Apache/2.4.52 (Ubuntu)")// validation on response header body
+                    .extract().response().asString(); // extract response body and store it in string or store json in string format
+          System.out.println("This is response body " + response);
 
         // to extract any value from response body
-      JsonPath  js = new JsonPath(response); // using JsonPath class for parsing json
-        String placeId = js.getString("place_id"); // got the place id here so now we can reuse it in other API
-        System.out.println("Place id  : "+placeId);
+          JsonPath  js = new JsonPath(response); // using JsonPath class for parsing json
+            String placeId = js.getString("place_id"); // got the place id here so now we can reuse it in other API
+            System.out.println("Place id  : "+placeId);
 
        // Note : get placeId from one api and use it in another API.(get something like token or id and use it in anothe API)
 
